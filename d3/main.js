@@ -1,6 +1,6 @@
 /* global $, d3 */
 
-d3.json('data/ts.json', function(error, json) {
+d3.json('data/experiment.json', function(error, json) {
     if (error) {
         return console.warn(error);
     }
