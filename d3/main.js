@@ -5,4 +5,4 @@ d3.json('data/experiment.json', function(error, json) {
         return console.warn(error);
     }
     console.log(json);
-})
+});
